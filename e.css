@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.cookie-clicker {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.1s ease, background-color 0.1s ease;
+}
+
+/* Hover effect to grow the button slightly */
+button:hover {
+    transform: scale(1.05); /* Slightly increase the size of the button */
+    background-color: #ffb700;
+}
+
+button:active {
+    transform: scale(1); /* Reset the size when the button is clicked */
+}
